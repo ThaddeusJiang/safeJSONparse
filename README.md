@@ -15,9 +15,9 @@ npm install @thaddeusjiang/safejsonparse
 ```
 import safeJSONparse from '@thaddeusjiang/safejsonparse'
 
-safeJSONparse('') // null
+safeJSONparse('') // undefined
 
-safeJSONparse('{ "value": wrong JSON }') // null
+safeJSONparse('{ "value": wrong JSON }') // undefined
 
 safeJSONparse('{ "name": "TJ" }') // { "name": "TJ" }
 
