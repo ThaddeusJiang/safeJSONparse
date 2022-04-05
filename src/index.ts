@@ -1,8 +1,8 @@
-export const safeJSONparse = (value: string) => {
+export const safeJSONparse = (value: string, handleError?: (error: unknown) => void) => {
   try {
     return JSON.parse(value);
   } catch (e) {
-    console.warn(e);
+    handleError?.(e);
     return undefined;
   }
 };

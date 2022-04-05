@@ -1,6 +1,6 @@
 {
   "name": "@thaddeusjiang/safejsonparse",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "Thaddeus Jiang",
   "main": "dist/index.js",
@@ -28,7 +28,7 @@
     }
   },
   "prettier": {
-    "printWidth": 80,
+    "printWidth": 120,
     "semi": true,
     "singleQuote": true,
     "trailingComma": "es5"
